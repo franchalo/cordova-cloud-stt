@@ -3,7 +3,7 @@
 <plugin
   xmlns="http://apache.org/cordova/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="cordova-plugin-stt"
+  id="cordova-cloud-stt"
   version="0.0.1">
   <name>TTS</name>
   <description>Cordova Speech-to-Text Plugin</description>
@@ -16,20 +16,6 @@
   <js-module src="www/stt.js" name="stt">
     <clobbers target="STT" />
   </js-module>
-
-  <!-- ios -->
-<!--   <platform name="ios">
-    <config-file target="config.xml" parent="/*">
-      <feature name="STT">
-        <param name="ios-package" value="CDVTTS"/>
-      </feature>
-    </config-file>
-
-    <header-file src="src/ios/CDVTTS.h" />
-    <source-file src="src/ios/CDVTTS.m" />
-    <header-file src="src/ios/MuteChecker.h" />
-    <source-file src="src/ios/MuteChecker.m" />
-  </platform> -->
 
   <!-- android -->
   <platform name="android">

@@ -1,17 +1,16 @@
 {
-  "name": "cordova-club-plugin-stt",
+  "name": "cordova-cloud-stt",
   "version": "0.0.1",
-  "description": "Cordova Club Speech-to-Text Plugin",
+  "description": "Cordova Speech-to-Text Plugin",
   "cordova": {
-    "id": "cordova-club-plugin-stt",
+    "id": "cordova-cloud-stt",
     "platforms": [
-      "ios",
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab-ncsa/tgo-club/club-applications/cordova-plugins/cordova-stt-plugin"
+    "url": "https://github.com/franchalo/cordova-cloud-stt"
   },
   "keywords": [
     "cordova",
@@ -24,7 +23,7 @@
   "author": "Frankie Chan",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab-ncsa/tgo-club/club-applications/cordova-plugins/cordova-tts-plugin/issues"
+    "url": "https://github.com/franchalo/cordova-cloud-stt/issues"
   },
-  "homepage": "https://gitlab-ncsa/tgo-club/club-applications/cordova-plugins/cordova-stt-plugin#readme"
+  "homepage": "https://github.com/franchalo/cordova-cloud-sttn#readme"
 }
